@@ -75,8 +75,11 @@ Implementation
   
 Results
 •	Gradient Boosting provided the best performance for logical depth prediction.
+![WhatsApp Image 2025-02-25 at 21 20 37_8b22ce9a](https://github.com/user-attachments/assets/1ee19255-04b5-4a09-92da-4f91767ed33d)
+
 
 •	The Hybrid Model (GNN + Gradient Boosting) improved prediction accuracy over GNN alone but did not outperform Gradient Boosting.
+
 
 •	Ensembling techniques can enhance performance, but tabular data-driven models remain the most effective for this task.
 
