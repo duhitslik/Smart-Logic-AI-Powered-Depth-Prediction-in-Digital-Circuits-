@@ -15,13 +15,18 @@ Features
 
 
 •	Gradient Boosting Model: A traditional ML approach using engineered features.
+
 •	Graph Neural Network (GNN): A deep learning model leveraging circuit graph structures.
+
 •	Hybrid Approach (GNN + Gradient Boosting): Combining both models for improved prediction accuracy.
+
 
 Dataset
 
 
 •	The dataset includes circuit parameters such as num_inputs, num_outputs, fan_in, fan_out, gate_density, complexity_score, critical_path_length, and logic depth.
+
+
 •	It was initially small and augmented using random synthetic samples that match real ALU circuit patterns.
 
 Solution
