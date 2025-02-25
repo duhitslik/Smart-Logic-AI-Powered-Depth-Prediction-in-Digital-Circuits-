@@ -38,22 +38,36 @@ Implementation
 
 
 1️.Gradient Boosting Model
+
 •	Preprocessing: Data normalization and feature selection.
+
 •	Training: Implemented with GradientBoostingRegressor from Scikit-learn.
+
 •	Evaluation: 
   o	Mean Squared Error (MSE)
   o	R² Score
+
+  
 2️.Graph Neural Network (GNN) Model
+
 •	Graph Representation: Circuit data structured using k-NN graphs.
+
 •	Model Architecture: 
   o	Multi-layer GATConv-based GNN.
   o	Dropout and BatchNorm for regularization.
   o	Trained using Huber Loss.
+
 •	Evaluation: 
   o	Mean Squared Error (MSE)
   o	R² Score
+
+  
 3️.Hybrid Model (GNN + Gradient Boosting)
+
+
 •	Predictions from Gradient Boosting and GNN were averaged.
+
+
 •	Performance Comparison: 
   o	Gradient Boosting alone: R² ≈ 0.91
   o	GNN alone: R² ≈ 0.74
@@ -61,27 +75,43 @@ Implementation
   
 Results
 •	Gradient Boosting provided the best performance for logical depth prediction.
+
 •	The Hybrid Model (GNN + Gradient Boosting) improved prediction accuracy over GNN alone but did not outperform Gradient Boosting.
+
 •	Ensembling techniques can enhance performance, but tabular data-driven models remain the most effective for this task.
 
 Installation & Setup
 1. Clone the repository:
-  •	git clone https://github.com/duhitslik/Smart-Logic-AI-Powered-Depth-Prediction-in-Digital-Circuits                                                                          •	cd Smart-Logic-AI-Powered-Depth-Prediction-in-Digital-Circuits
-2. Set up the environment
+  •	git clone https://github.com/duhitslik/Smart-Logic-AI-Powered-Depth-Prediction-in-Digital-Circuits                                                                          •	cd Smart-Logic-AI-Powered-Depth-
+Prediction-in-Digital-Circuits
+
+
+3. Set up the environment
 It is recommended to use a virtual environment to manage dependencies:
   •	python -m venv venv
   •	source venv/bin/activate  # On Windows use: venv\Scripts\activate
-3. Install dependencies
+
+
+5. Install dependencies
   •	pip install -r requirements.txt
-4. Dataset : logical_depth_dataset.scv
-5. Run the models
+
+
+7. Dataset : logical_depth_dataset.scv
+
+   
+8. Run the models
+   
   •	python gradient_boosting.py  # Train Gradient Boosting model
   •	python Comparision_models.py  # Train GNN model+Hybrid
 
 Future Improvements
+
 •	Enhancing GNN structure by incorporating more circuit topology insights.
+
 •	Exploring ensemble techniques beyond simple averaging.
+
 •	Expanding real-world dataset collection for better validation.
+
 ________________________________________
 Contributors
   •	Likitha S
