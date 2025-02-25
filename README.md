@@ -76,33 +76,33 @@ Implementation
 Results
 •	Gradient Boosting provided the best performance for logical depth prediction.
 ![WhatsApp Image 2025-02-25 at 21 20 37_8b22ce9a](https://github.com/user-attachments/assets/1ee19255-04b5-4a09-92da-4f91767ed33d)
-
+![WhatsApp Image 2025-02-25 at 21 20 54_e0fc5621](https://github.com/user-attachments/assets/9146d3e9-b154-46e3-b2e3-3245a60d5a4f)
 
 •	The Hybrid Model (GNN + Gradient Boosting) improved prediction accuracy over GNN alone but did not outperform Gradient Boosting.
-
-
 •	Ensembling techniques can enhance performance, but tabular data-driven models remain the most effective for this task.
+![WhatsApp Image 2025-02-25 at 21 30 49_7bf5d4e3](https://github.com/user-attachments/assets/18f5623e-86c7-4fac-bead-ede49b929214)
+![WhatsApp Image 2025-02-25 at 21 31 09_0a6549bf](https://github.com/user-attachments/assets/8e8907c2-ebac-4813-9238-1c697eae6877)
+![WhatsApp Image 2025-02-25 at 21 31 25_5413255d](https://github.com/user-attachments/assets/b15ed142-ef4a-402b-956a-8613b6e14cbd)
 
 Installation & Setup
 1. Clone the repository:
-  •	git clone https://github.com/duhitslik/Smart-Logic-AI-Powered-Depth-Prediction-in-Digital-Circuits                                                                          •	cd Smart-Logic-AI-Powered-Depth-
-Prediction-in-Digital-Circuits
+  •	git clone https://github.com/duhitslik/Smart-Logic-AI-Powered-Depth-Prediction-in-Digital-Circuits                                                                          •	cd Smart-Logic-AI-Powered-Depth-Prediction-in-Digital-Circuits
 
 
-3. Set up the environment
+2. Set up the environment
 It is recommended to use a virtual environment to manage dependencies:
   •	python -m venv venv
   •	source venv/bin/activate  # On Windows use: venv\Scripts\activate
 
 
-5. Install dependencies
+3. Install dependencies
   •	pip install -r requirements.txt
 
 
-7. Dataset : logical_depth_dataset.scv
+4. Dataset : logical_depth_dataset.scv
 
    
-8. Run the models
+5. Run the models
    
   •	python gradient_boosting.py  # Train Gradient Boosting model
   •	python Comparision_models.py  # Train GNN model+Hybrid
