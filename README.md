@@ -1,5 +1,5 @@
 # Smart-Logic-AI-Powered-Depth-Prediction-in-Digital-Circuits-
-Smart Logic: AI-Powered Depth Prediction in Digital Circuits 
+
 
 Problem Statement
 Predicting logical depth in ALU circuits is essential for optimizing circuit design and improving performance. However, real-time synthesis datasets are limited, making it challenging to develop accurate models. This project aims to solve this problem by leveraging machine learning techniques to predict logical depth efficiently, benefiting researchers and engineers working in digital circuit design.
