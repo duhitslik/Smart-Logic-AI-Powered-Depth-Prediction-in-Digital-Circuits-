@@ -1,25 +1,37 @@
 # Smart-Logic-AI-Powered-Depth-Prediction-in-Digital-Circuits-
 
 
-Problem Statement
+Problem Statement 
+
+
 Predicting logical depth in ALU circuits is essential for optimizing circuit design and improving performance. However, real-time synthesis datasets are limited, making it challenging to develop accurate models. This project aims to solve this problem by leveraging machine learning techniques to predict logical depth efficiently, benefiting researchers and engineers working in digital circuit design.
 
 Overview
+
+
 This project focuses on predicting the logical depth of ALU circuits using Gradient Boosting and Graph Neural Networks (GNNs). Since real-time synthesis datasets were limited, synthetic samples were generated to maintain consistency with real ALU patterns.
 
 Features
+
+
 •	Gradient Boosting Model: A traditional ML approach using engineered features.
 •	Graph Neural Network (GNN): A deep learning model leveraging circuit graph structures.
 •	Hybrid Approach (GNN + Gradient Boosting): Combining both models for improved prediction accuracy.
 
 Dataset
+
+
 •	The dataset includes circuit parameters such as num_inputs, num_outputs, fan_in, fan_out, gate_density, complexity_score, critical_path_length, and logic depth.
 •	It was initially small and augmented using random synthetic samples that match real ALU circuit patterns.
 
 Solution
+
+
 To accurately predict logical depth in ALU circuits, we evaluated multiple machine learning models. Gradient Boosting emerged as the best-performing model with an R² score of ~0.91, making it the most reliable method for logical depth estimation. We also compared it with Graph Neural Networks (GNNs), which captured circuit topology but had lower accuracy (R² ≈ 0.74). Furthermore, an ensemble approach combining GNN and Gradient Boosting achieved R² ≈ 0.88, showing that ensembling enhances prediction performance but does not surpass the Gradient Boosting model alone.
 
 Implementation
+
+
 1️.Gradient Boosting Model
 •	Preprocessing: Data normalization and feature selection.
 •	Training: Implemented with GradientBoostingRegressor from Scikit-learn.
