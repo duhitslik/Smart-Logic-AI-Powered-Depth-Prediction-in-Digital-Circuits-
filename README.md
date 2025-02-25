@@ -49,8 +49,8 @@ Results
 
 Installation & Setup
 1. Clone the repository:
-git clone https://github.com/yourusername/your-repo.git
-cd your-repo
+git clone https://github.com/duhitslik/Smart-Logic-AI-Powered-Depth-Prediction-in-Digital-Circuits
+cd Smart-Logic-AI-Powered-Depth-Prediction-in-Digital-Circuits
 2. Set up the environment
 It is recommended to use a virtual environment to manage dependencies:
 python -m venv venv
@@ -58,7 +58,6 @@ source venv/bin/activate  # On Windows use: venv\Scripts\activate
 3. Install dependencies
 pip install -r requirements.txt
 4. Dataset : logical_depth_dataset.scv
-
 5. Run the models
 python gradient_boosting.py  # Train Gradient Boosting model
 python Comparision_models.py  # Train GNN model+Hybrid
