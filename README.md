@@ -84,6 +84,9 @@ Results
 ![WhatsApp Image 2025-02-25 at 21 31 09_0a6549bf](https://github.com/user-attachments/assets/8e8907c2-ebac-4813-9238-1c697eae6877)
 ![WhatsApp Image 2025-02-25 at 21 31 25_5413255d](https://github.com/user-attachments/assets/b15ed142-ef4a-402b-956a-8613b6e14cbd)
 
+• Traditional Yosys vs optimized AI(gradient boosting)
+![image](https://github.com/user-attachments/assets/1eda93ff-fb9a-4037-aa4c-d894ee4720e5)
+
 Installation & Setup
 1. Clone the repository:
  
